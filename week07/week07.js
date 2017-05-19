@@ -1,0 +1,45 @@
+function reset(){
+	location.reload(true);
+}
+
+function total(){
+        var x = 0;
+	if(document.getElementById("1").checked)
+	{x += 4.95;}
+	if(document.getElementById("2").checked)
+        {x += 20.00;}
+	if(document.getElementById("3").checked)
+        {x += 25.95;}
+	if(document.getElementById("4").checked)
+        {x += 15.95;}
+	document.getElementById("total").value = x.toFixed(2); 
+}
+
+function vName(x){
+	if(!isNaN(x)) {document.getElementById("eName").style.visibility = 'visible';}
+	else
+	{document.getElementById("eName").style.visibility = 'hidden';}
+}
+
+function phone(x, y){
+	if(x.search(/^\d{3}\-\d{3}\-\d{4}$/)) 
+	{document.getElementById(y).style.visibility = 'visible';}
+	else
+	{document.getElementById(y).style.visibility = 'hidden';}
+}
+
+function credit(x, y){
+	if(x.search(/^\d{16}$/))
+	{
+	document.getElementById(y).style.visibility = 'visible';}
+	else
+	{document.getElementById(y).style.visibility = 'hidden';}
+	}
+
+
+function verify(){
+	
+}
+	
+
+

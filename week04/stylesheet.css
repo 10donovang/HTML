@@ -1,0 +1,66 @@
+<!-- stylesheet.css -->
+body{
+	background-color: lightgrey;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 300%;
+}
+
+h2 {
+	color: red;
+	text-align: left;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 200%;
+}
+
+h3 {
+        color: red;
+        text-align: right;
+        font-family: "Times New	Roman",	Georgia, Serif;
+        font-size: 200%;
+}
+
+#impor {
+	color: blue;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#magic {
+	color: green;
+	font-family: fantasy;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#math {
+	color: blue;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+div.crazy {
+	color: rgba(255, 0, 0, 0.2);
+	font-family: fantasy;
+	font-style: italic;
+	font-size: 500%;
+	font-align: center;
+}
+
+p {
+	font-family: "Times New Roman", Georgia, Serif;
+	color: #FF7F50;
+}
+
+div.books {
+	color: blue;
+	font-family: fantasy;
+}
+
+
+

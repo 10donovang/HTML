@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<style>
+#fun {
+	font-family: fantasy;
+	color: rgba(0, 0, 255, 0.3);
+	font-size: 200%;
+}
+
+div.job {
+	font-family: "Times New Roman";
+	color:blue;
+}
+
+div {
+	color:black;
+}
+
+ol.a {
+	list-style-type: upper-roman;
+	color: black;
+}
+
+p {
+	font-align: center;
+}
+
+</style>
+<title>Bussiness of Books</title>
+</head>
+
+<body>
+	<h1>
+	Welcome to The <div class="books">Book</div> <div id="impor"> Bussiness
+	</div> Website!
+	</h1>
+	<br>
+	<h2>
+	This is the place to find all of your <div id="magic">magic</div>
+	<div class="book">books!</div>
+	</h2>
+	<p> Welcome to the <div class="job"> home</div> of magic books!</p>
+	<h3> You can come check out some of the<div id="magic"> magic </div> 
+	tricks <div id="fun">
+	<a href="http://localhost/~donovang/week03/page2.html">
+	here</a>.</div> </h3>
+	<ol class="a" style="font-align:left";>
+	<li style="font-align:left";> The Deft Book of Magic by Donovan 
+	McGregor </li>
+	<li style="font-align:left";> Magic Book of <span id="math"> Math 
+	</div> Tricks by DOnovan McGregor </li>
+	</ol>
+</body>
+</html>
+	 

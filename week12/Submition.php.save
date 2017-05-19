@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+echo "<h1>Shopping Finalization</h1>";
+echo $_POST['name'];
+?>
+
+</body>
+</html>

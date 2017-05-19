@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Magic Tricks Bussiness</title>
+		<script type="text/javascript" src="week12.js">
+function total(){
+        var x = 0;
+        if(document.getElementById("1").checked)
+        {x += 4.95;}
+        if(document.getElementById("2").checked)
+        {x += 20.00;}
+        if(document.getElementById("3").checked)
+        {x += 25.95;}
+        if(document.getElementById("4").checked)
+        {x += 15.95;}
+        document.getElementById("total").value = x.toFixed(2);
+}
+</script>
+	</head>
+	<body>
+<form action="Submition.php" id="form1" method="post">
+		<h1>This is the place to buy all the books of Magic Tricks!</h1>
+		<p>We have many options to choose from. Please just enter the information below
+			to place your order NOW!</p>
+	<ul style="list-style-type:none">
+		<li><input type="checkbox" name="book1" id="1" onclick="total()">
+		The Best Magic Tricks of All Times by Donald McGregor......$4.95</li>
+		<li><input type="checkbox" name="book2" id="2" onclick="total()">
+				Math Tricks for All Times by Donald McGregor....................$20.00</li>
+				<li><input type="checkbox" name="book3" id="3" onclick="total()">
+				The Deft Book of Magic by Donald McGregor.......................$25.95</li>
+				<li><input type="checkbox" name="book4" id="4" onclick="total()">
+				Magic Book of Math Tricks by Donald McGregory...............$15.95</li>
+			</ul>
+			
+			
+			<p>Please enter your shipping information below:</p>
+			
+			
+			<p>Name:<input type="textbox" name="name" id="name" value="" onkeyup="vName(this.value)">
+			<span style="color:red; visibility:hidden"id="eName">Invalid Name</span></p>
+			<p>Street Address:<input type="textbox" name="saddress" value="">
+			City:<input type="textbox" name="city" value="">
+			State:<input type="textbox" name="state" value="">
+			Zip Code:<input type="textbox" name="zip" value="">
+			<span style="color:red; visibility:hidden"id="eAddress">Invalid Address</span></p>
+			<p>Phone:<input type="textbox" name="phone" id="phone" value="" 
+			onkeyup="phone(this.value, 'ePhone')">
+				<span style="color:red; visibility:hidden" id="ePhone">Invalid Phone Number</span></p>
+			<p>Credit Card Number:<input type="textbox" name="CCN"
+			id="CCN"  
+			onkeyup="credit(this.value, 'eCard')"> <br>Credit Card Type:
+  <select name="cardtype">
+    <option value="Mastercard">MasterCard</option>
+    <option value="Visa">Visa</option>
+    <option value="Discover">Discover</option>
+  </select>
+Expiration Date: <input type="testbox" name="date" value="January 2020">
+  <br><br>
+<span style="color:red; visibility:hidden" id="eCard">Invalid Credit Card</span></p>	
+      <input type="submit" value="Submit"/>
+    </form> 
+<button onclick="reset()">Reset</button>
+
+			
+	</body>
+</html>

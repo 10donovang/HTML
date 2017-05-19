@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Magic Tricks Bussiness</title>
+		<script type="text/javascript" src="week07.js"></script>
+	</head>
+	<body>
+		<h1>This is the place to buy all the books of Magic Tricks!</h1>
+		<p>We have many options to choose from. Please just enter the information below
+			to place your order NOW!</p>
+	<ul style="list-style-type:none">
+		<li><input type="checkbox" name="book" id="1" onclick="total()">
+		The Best Magic Tricks of All Times by Donald McGregor......$4.95</li>
+		<li><input type="checkbox" name="book" id="2" onclick="total()">
+				Math Tricks for All Times by Donald McGregor....................$20.00</li>
+				<li><input type="checkbox" name="book" id="3" onclick="total()">
+				The Deft Book of Magic by Donald McGregor.......................$25.95</li>
+				<li><input type="checkbox" name="book" id="4" onclick="total()">
+				Magic Book of Math Tricks by Donald McGregory...............$15.95</li>
+			</ul>
+			<p align="center">Total:<input type="textbox" id="total"> 
+			<span style="color:red; visibility:hidden" id="eTotal">Invalid Total</span></p>
+			
+			<p>Please enter your shipping information below:</p>
+			
+			
+			<p>Name:<input type="textbox" id="name" value="" onkeyup="vName(this.value)">
+			<span style="color:red; visibility:hidden"id="eName">Invalid Name</span></p>
+			<p>Address:<input type="textbox" name"address" value"address">
+			<span style="color:red; visibility:hidden"id="eAddress">Invalid Address</span></p>
+			<p>Phone:<input type="textbox" id="phone" value="" 
+			onkeyup="phone(this.value, 'ePhone')">
+				<span style="color:red; visibility:hidden" id="ePhone">Invalid Phone Number</span></p>
+			<p>Credit Card Number:<input type="textbox" id="CCN"  
+			onkeyup="credit(this.value, 'eCard')">
+				<span style="color:red; visibility:hidden" id="eCard">Invalid Credit Card</span></p>
+			<button onclick="verify()">Submit</button> <button onclick="reset()">Reset</button>
+
+			
+	</body>
+</html>

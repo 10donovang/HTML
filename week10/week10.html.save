@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Week10</title>
+	</head>
+	<body>
+		<div id="states">
+		<p>Pick a country from the buttons.</p>
+		<button type="button" onclick="USA()"> USA</button>
+		<button type="button" onclick="russia()"> Russia</button>
+		<button type="button" onclick="mexico()"> Mexico</button>
+		<button type="button" onclick="canada()"> Canada</button>
+		</div>
+
+	<div id="refresh" style="display: none;">
+		<button type="button" onclick="refresh()">Refresh</button>
+        </div>
+	<br><br><br><br>
+	<div id="name">
+	<form>
+	Text File: <input type="text" id="file" value="json.txt">
+	</form>
+	 <button type="button" onclick="student()">Info</button>
+	</div>
+	<div id="refresh1" style="display: none;">
+                <button type="button" onclick="refresh()">Refresh</button>
+		
+		<script>
+
+		function refresh(){
+		location.reload();
+}
+		
+		function USA() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("states").innerHTML =
+					this.responseText;
+				}
+			};
+			xhttp.open("GET", "usa.txt", true);
+			xhttp.send();
+			var x = document.getElementById('refresh');
+    	if (x.style.display === 'none') {
+        	x.style.display = 'block';
+    	} else {
+        	x.style.display = 'none';
+    	}
+
+		}
+		
+		function mexico() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("states").innerHTML =
+					this.responseText;
+				}
+			};
+			xhttp.open("GET", "mexico.txt", true);
+			xhttp.send();
+var x = document.getElementById('refresh');
+        if (x.style.display === 'none') {
+                x.style.display = 'block';
+        } else {
+                x.style.display = 'none';
+        }
+
+		}
+		
+		function russia() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("states").innerHTML =
+					this.responseText;
+				}
+			};
+			xhttp.open("GET", "russia.txt", true);
+			xhttp.send();
+var x = document.getElementById('refresh');
+        if (x.style.display === 'none') {
+                x.style.display = 'block';
+        } else {
+                x.style.display = 'none';
+        }
+
+		}
+		
+		function canada() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("states").innerHTML =
+					this.responseText;
+				}
+			};
+			xhttp.open("GET", "canada.txt", true);
+			xhttp.send();
+var x = document.getElementById('refresh');
+        if (x.style.display === 'none') {
+                x.style.display = 'block';
+        } else {
+                x.style.display = 'none';
+        }
+}
+
+		
+function student(){
+                        var xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function() {
+                                if (this.readyState == 4 && this.status == 200) {
+                                        document.getElementById("name").innerHTML =
+                                        this.responseText;
+                                }
+                        };
+			var y = "../" + document.getElementById("file").value;
+                        xhttp.open("GET", y, true);
+                        xhttp.send();
+var x = document.getElementById('refresh1');
+        if (x.style.display === 'none') {
+                x.style.display = 'block';
+        } else {
+                x.style.display = 'none';
+        }
+}
+		
+
+		</script>
+	</body>
+</html>	

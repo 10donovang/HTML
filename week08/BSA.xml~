@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bsa>
+	<council name="High">
+		<troop troopnumber=564 unit=12>
+		  	<scout>
+				<firstname>Sam</firstname>
+				<lastname>Freud</lastname>
+				<address>
+					<street>123 N 5th W</street>
+					<city>Rexburg></city>
+					<state>Idaho</state>
+				</address>
+				<phone>208-333-3333</phone>
+				<rank date-earned="12/3/16">Tenderfoot</rank>
+				<rank date-earned="12/4/15">2ndClass</rank>
+				<meritbadge date-earned="12/4/16">First Aid</meritbadge>
+				<meritbadge date-earned="12/5/14">Swimming</meritbadge>
+			</scout>
+			<scout>
+				<firstname>Tim</firstname>
+				<lastname>Jude</lastname>
+				<address>
+					<street>124 N 5th W</street>
+					<city>Rexburg></city>
+					<state>Idaho</state>
+				</address>
+				<phone>208-333-3334</phone>
+				<rank date-earned="12/6/16">1stClass</rank>
+				<rank date-earned="1/1/15">2ndClass</rank>
+				<rank date-earned="3/3/13">Tenderfoot</rank>
+				<meritbadge date-earned="12/4/16">Science</meritbadge>
+				<meritbadge date-earned="2/2/12">Saving</meritbadge>
+			</scout>
+		</troop>
+		
+		<troop troopnumber=876 unit=143>
+		  	<scout>
+				<firstname>Gum</firstname>
+				<lastname>Fredrick</lastname>
+				<address>
+					<street>123 S 6th W</street>
+					<city>Rexburg></city>
+					<state>Idaho</state>
+				</address>
+				<phone>208-333-3339</phone>
+				<rank date-earned="3/31/11">Tenderfoot</rank>
+				<rank date-earned="12/4/13">2ndClass</rank>
+				<rank date-earned="1/2/14">1stClass</rank>
+				<meritbadge date-earned="12/4/11">First Aid</meritbadge>
+				<meritbadge date-earned="12/5/12">Swimming</meritbadge>
+			</scout>
+			<scout>
+				<firstname>Tim</firstname>
+				<lastname>Jude</lastname>
+				<address>
+					<street>124 N 5th W</street>
+					<city>Rexburg></city>
+					<state>Idaho</state>
+				</address>
+				<phone>208-333-3344</phone>
+				<rank date-earned="1/12/17">Star</rank>
+				<rank date-earned="12/6/16">1stClass</rank>
+				<rank date-earned="1/1/15">2ndClass</rank>
+				<rank date-earned="3/3/13">Tenderfoot</rank>
+				<meritbadge date-earned="12/4/16">Science</meritbadge>
+				<meritbadge date-earned="2/2/12">Saving</meritbadge>
+			</scout>
+		</troop>
+	<council name="Low">
+		<troop troopnumber=4321 unit=21>
+	  	<scout>
+			<firstname>Don</firstname>
+			<lastname>McGregor</lastname>
+			<address>
+				<street>1567 N 5th W</street>
+				<city>Rexburg></city>
+				<state>Idaho</state>
+			</address>
+			<phone>208-333-1111</phone>
+			<rank date-earned="7/3/12">Tenderfoot</rank>
+			<rank date-earned="1/4/13">2ndClass</rank>
+			<rank date-earnder="2/8/14">1stClass</rank>
+			<rank date-earned="7/11/15">Star</rank>
+			<meritbadge date-earned="12/4/16">Camping</meritbadge>
+			<meritbadge date-earned="12/5/14">Swimming</meritbadge>
+		</scout>
+		<scout>
+			<firstname>George</firstname>
+			<lastname>Weasley</lastname>
+			<address>
+				<street>765 N 5th W</street>
+				<city>Rexburg></city>
+				<state>Idaho</state>
+			</address>
+			<phone>208-111-3334</phone>
+			<rank date-earned="12/6/16">1stClass</rank>
+			<rank date-earned="1/1/15">2ndClass</rank>
+			<rank date-earned="3/3/13">Tenderfoot</rank>
+			<meritbadge date-earned="12/4/16">Science</meritbadge>
+			<meritbadge date-earned="2/2/12">Saving</meritbadge>
+		</scout>
+	</troop>
+	
+	<troop troopnumber=9999 unit=88>
+	  	<scout>
+			<firstname>Jake</firstname>
+			<lastname>StateFarm</lastname>
+			<address>
+				<street>123 S 10th W</street>
+				<city>Rexburg></city>
+				<state>Idaho</state>
+			</address>
+			<phone>208-333-3345</phone>
+			<rank date-earned="3/31/11">Tenderfoot</rank>
+			<rank date-earned="12/4/13">2ndClass</rank>
+			<rank date-earned="1/2/14">1stClass</rank>
+			<meritbadge date-earned="12/4/11">First Aid</meritbadge>
+			<meritbadge date-earned="12/5/12">Swimming</meritbadge>
+		</scout>
+		<scout>
+			<firstname>Frank</firstname>
+			<lastname>Wilson</lastname>
+			<address>
+				<street>124 N Main</street>
+				<city>Rexburg></city>
+				<state>Idaho</state>
+			</address>
+			<phone>208-333-7584</phone>
+			<rank date-earned="1/1/17">Eagle</rank>
+			<rank date-earned="2/13/16>Life</rank>
+			<rank date-earned="1/12/15">Star</rank>
+			<rank date-earned="12/6/14">1stClass</rank>
+			<rank date-earned="1/1/13">2ndClass</rank>
+			<rank date-earned="3/3/11">Tenderfoot</rank>
+			<meritbadge date-earned="12/4/16">Science</meritbadge>
+			<meritbadge date-earned="2/2/12">Saving</meritbadge>
+		</scout>
+	</troop>

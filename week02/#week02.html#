@@ -1,0 +1,85 @@
+color:green; font-family:fantasy; font-size:140%;
+        text-align:center;"><!DOCTYPE html>
+<html>
+  <head>
+    <title>Donovan Gregory's Personal Page</title>
+  </head>
+  <body>
+     <h1 style="color:red; font-family:arial; text-align:center;">
+     Welcome to Donovan Gregory's Home Page!
+     </h1> 
+	<a href="index.html"> 
+	 	CS 213 Assignments
+	</a>
+     <hr>
+	<img src="usb.png" alt="USB" height="42" width="42">
+
+	<p style="color:green; font-family:fantasy; font-size:140%; 
+	text-align:center;">
+	Name: Donovan Gregory <br> Major: Computer Science <br> 
+	From: Seaside, Oregon
+	</p>
+	
+	<table style="width:100%">
+		<tr>
+		  <th style ="text-align:center;">
+		  <strong>Class Schedule</strong></th>
+		</tr>
+		<tr>
+		  <td>Course # </td>
+		  <td>Course Description</td>
+		  <td>Sec #</td>
+		  <td>Class Time</td>
+		  <td>Class Location</td>
+		</tr>
+		<tr>
+                  <td>CIT 225 </td>
+                  <td>Database Theory, Application and Management 
+		      Technologies</td>
+                  <td>09</td>
+                  <td>0:00</td>
+                  <td>Online</td>
+                </tr>
+		<tr>
+                  <td>CS 213 </td>
+                  <td>Web Engineering 1</td>
+                  <td>02</td>
+                  <td>0:00</td>
+                  <td>Online</td>
+                </tr>
+		<tr>
+                  <td>CS 235</td>
+                  <td>Data Structures</td>
+                  <td>03</td>
+                  <td>0:00</td>
+                  <td>Online</td>
+                </tr>
+		<tr>
+                  <td>CS 308</td>
+                  <td>Technical Communication</td>
+                  <td>03</td>
+                  <td>0:00</td>
+                  <td>Online</td>
+                </tr>
+		<tr>
+                  <td>ECEN 160</td>
+                  <td>Fundamentals of Digital Systems</td>
+                  <td>04</td>
+                  <td>0:00</td>
+                  <td>Online</td>
+                </tr>	
+
+	<blockquote style="color:blue; font-family:fantasy; 
+	font-size: 150%; position: fixed; bottom: 0; right: 0;">
+	"<strong>God, grant me the serenity to accept the things I cannot change,<br>
+	Courage to change the things I can,<br>
+	And wisdom to know the difference.</strong>"<br>
+	<em>~ Reinhold Niebuhr </em>
+	</blockquote>
+
+        <ul style="color:red; font-family:fantasy; font-size:190%;">
+
+  </body>
+</html>
+
+

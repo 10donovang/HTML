@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CS 213 Week 06 Ponder and Prove</title>
+    <script type="text/javascript" src="week06.js"></script>
+    <style type="text/css">
+        form, pre {
+            margin-left: 20px;
+            font-family: Verdana, Geneva, sans-serif;
+            padding: 6px;
+            width: 550px;
+            font-size: 12px;
+            border: 1px solid rgb(0, 90, 136);
+            border-radius: 4px;
+        }
+
+        h2 {
+            border-bottom-style: solid;
+        }
+	
+    </style>
+</head>
+
+<body>
+<!-- First problem: Age -->
+<h2>#1: Age</h2>
+<p>Please indicate your age: 0-118 years</p>
+
+<div>
+    <input onInput="problem1(this.value, 'error1');"  size="3"/>
+    <span style='color:red' class="error1">Invalid age</span>
+</div>
+<div>
+    <input onInput="problem1(this.value, 'error2');" size="3"/>
+    <span style='color:red' class="error2">Invalid age</span>
+</div>
+
+
+<!-- Second problem: SSN -->
+<h2>#2: SSN</h2>
+<p>Please enter a Social Security Number: 000-00-0000</p>
+
+<div>
+    <input size="11" onInput="problem2(this.value, 'error3')";/>
+    <span style='color:red' class:"error3">Invalid SSN</span>
+</div>
+<div>
+    <input size="11" onInput="problem2(this.value, 'error4')";/>
+    <span style='color:red' class"error4">Invalid SSN</span>
+</div>
+
+
+<!-- Third problem: Credit Card Number -->
+<h2>#3: Credit Card Number</h2>
+<p>Please enter a credit card number: 0000 0000 0000 0000</p>
+
+<div>
+    <input size="19" onInput="problem3(this.value, 'error5')";/>
+    <span style='color:red' class="error5">Invalid credit card number</span>
+</div>
+<div>
+    <input size="19" onInput="problem3(this.value, 'error6')";/>
+    <span style='color:red' class"error6">Invalid credit card number</span>
+</div>
+
+
+<!-- Fourth problem: Date -->
+<h2>#4: Date</h2>
+<p>Please enter a date: m/d/yyyy</p>
+
+<div>
+    <input size="9" onInput="problem4(this.value, 'error7')";/>
+    <span style='color:red' class="error7">Invalid date</span>
+</div>
+<div>
+    <input size="9" onInput="problem4(this.value, 'error8')";/>
+    <span style='color:red' class="error8">Invalid date</span>
+</div>
+
+
+<!-- Fifth problem: Abbreviation -->
+<h2>#5: State Abbreviation</h2>
+<p>Please enter a 2-letter state abbreviation</p>
+
+<div>
+    <input size="2"onInput="problem5(this.value, 'error8')"/>
+    <span style='color:red' class="error9">Invalid state abbreviation</span>
+</div>
+<div>
+    <input size="2"onInput="problem5(this.value, 'error9')"/>
+    <span style='color:red' class="error10">Invalid state abbreviation</span>
+</div>
+
+
+<!-- Sixth problem: Money  -->
+<h2>#6: Dollar Amount</h2>
+<p>Please enter an amount in US dollars</p>
+
+<div>
+    <input size="10" onInput="problem6(this.value, 'error11')"/>
+    <span style='color:red'>Invalid money amount</span>
+</div>
+<div>
+    <input size="10" onInput="problem6(this.value, 'error12')"/>
+    <span style='color:red' class="error12">Invalid money amount</span>
+</div>
+
+</body>
+</html>
